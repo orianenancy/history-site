@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+    <link rel="icon" href="/images/icone/planete-terre.png">
+</head>
+<body>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+        h1{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        span{
+            font-family: "Courgette", cursive;
+        }
+
+        div{
+            
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        img{
+            max-width: 200px;
+            animation: rotate 10s linear infinite;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        input{
+            cursor: pointer;
+            padding: 10px;
+            font-size: 18px;
+            width: 150px;
+            background-color: rgb(82, 166, 177);
+            color: aliceblue;
+            border: none;
+        }
+
+        input:hover{
+            background-color: rgb(40, 149, 192);
+            color: aliceblue;
+            font-weight: 600;
+            transition: 2s;
+        }
+
+    </style>
+
+    <div>
+        <img src="../images/icone/planete-terre.png" alt="">
+        <h1>Bienvenu dans <span>History</span></h1>
+        <a href="recherche.html"><input type="submit" value="Commencer"></a>
+    </div>
+    
+    
+</body>
+</html>

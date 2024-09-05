@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+
+nav div .div1 img{
+    max-width: 60px;
+    position: relative;
+    animation: move 3s infinite alternate;
+}
+
+@keyframes move {
+        0% {
+            left: 0;
+        }
+        100% {
+            left: 200px;
+        }
+}
+
+nav div .div2 img{
+    max-width: 20px;
+    color: aliceblue;
+}
+
+nav div {
+    display: flex;
+    flex-direction: row;
+}
+
+nav .nav{
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .nav .div2{
+    margin-right: 80px;
+}
+
+nav .nav .div1{
+    margin-left: 30px;
+    gap: 20px;
+}
+
+span{
+    font-family: "Courgette", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+
+input{
+    width: 350px;
+    height: 30px;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    color: rgba(26, 25, 25, 0.009);
+
+}
+
+
+
+
+
+section div {
+
+    text-align: center;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+section {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conti{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(182, 182, 153);
+}
+
+h3{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+section div .conti img{
+    color: inherit;
+    cursor: pointer;
+}
